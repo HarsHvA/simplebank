@@ -8,7 +8,8 @@ on:
 
 jobs:
 
-  test: Test
+  test: 
+    name: Test
     runs-on: ubuntu-latest
 
     services:
